@@ -1,0 +1,33 @@
+#main_frame
+  = render "partials/menu"
+  %h1.centred
+    Gallery
+  #gallery.centred
+    = link_to image_tag( 'pictures/flowers1_small.jpg', :class => "drop_shadow"), 'images/pictures/flowers1.jpg', {:rel => "lightbox-pics", :title => "Flowers"}
+    = link_to image_tag( 'pictures/flowers2_small.jpg', :class => "drop_shadow"), 'images/pictures/flowers2.jpg', {:rel => "lightbox-pics", :title => "Flowers"}
+    = link_to image_tag( 'pictures/flowers3_small.jpg', :class => "drop_shadow"), 'images/pictures/flowers3.jpg', {:rel => "lightbox-pics", :title => "Garden path"}
+    %br
+    = link_to image_tag( 'pictures/flowers4_small.jpg', :class => "drop_shadow"), 'images/pictures/flowers4.jpg', {:rel => "lightbox-pics", :title => "Flowers"}
+    = link_to image_tag( 'pictures/flowers5_small.jpg', :class => "drop_shadow"), 'images/pictures/flowers5.jpg', {:rel => "lightbox-pics", :title => "Flowers"}
+    = link_to image_tag( 'pictures/flowers6_small.jpg', :class => "drop_shadow"), 'images/pictures/flowers6.jpg', {:rel => "lightbox-pics", :title => "Flowers"}
+    %br
+    = link_to image_tag( 'pictures/sunset_small.jpg', :class => "drop_shadow"), 'images/pictures/sunset.jpg', {:rel => "lightbox-pics", :title => "Sunset"}
+    = link_to image_tag( 'pictures/cloudswirl_small.jpg', :class => "drop_shadow"), 'images/pictures/cloudswirl.jpg', {:rel => "lightbox-pics", :title => "Cloud meringue"}
+    = link_to image_tag( 'pictures/peaceful_small.jpg', :class => "drop_shadow"), 'images/pictures/peaceful.jpg', {:rel => "lightbox-pics", :title => "A peaceful oasis"}
+    %br
+    = link_to image_tag( 'pictures/deer_small.jpg', :class => "drop_shadow"), 'images/pictures/deer.jpg', {:rel => "lightbox-pics", :title => "A visiting deer"}
+    = link_to image_tag( 'pictures/stars_small.jpg', :class => "drop_shadow"), 'images/pictures/stars.jpg', {:rel => "lightbox-pics", :title => "Starfish"}
+    = link_to image_tag( 'pictures/robin_small.jpg', :class => "drop_shadow"), 'images/pictures/robin.jpg', {:rel => "lightbox-pics", :title => "Robin takin a bath"}
+    %br
+    = link_to image_tag( 'pictures/stream_small.jpg', :class => "drop_shadow"), 'images/pictures/stream.jpg', {:rel => "lightbox-pics", :title => "Stream"}
+    = link_to image_tag( 'pictures/davis_bay_small.jpg', :class => "drop_shadow"), 'images/pictures/davis_bay.jpg', {:rel => "lightbox-pics", :title => "Davis Bay"}
+    = link_to image_tag( 'pictures/eagle_small.jpg', :class => "drop_shadow"), 'images/pictures/eagle.jpg', {:rel => "lightbox-pics", :title => "Eagle"}
+    %br
+    = link_to image_tag( 'pictures/ferry_small.jpg', :class => "drop_shadow"), 'images/pictures/ferry.jpg', {:rel => "lightbox-pics", :title => "Ferry"}
+    = link_to image_tag( 'pictures/waterfall_small.jpg', :class => "drop_shadow"), 'images/pictures/waterfall.jpg', {:rel => "lightbox-pics", :title => "Waterfall"}
+    = link_to image_tag( 'pictures/inlet_small.jpg', :class => "drop_shadow"), 'images/pictures/inlet.jpg', {:rel => "lightbox-pics", :title => "Inlet"}
+    %br
+  %p.note_text.centred
+    Some photos courtesy of <a href="http://www.tellaphoto.com/" target="_blank">Tella Sametz</a>
+  #bottom_of_main_frame
+    = render "partials/foot"

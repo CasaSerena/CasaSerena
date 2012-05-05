@@ -1,0 +1,49 @@
+#main_frame
+  = render "partials/menu"
+  #two_column_wrapper
+    #left_box
+      = link_to image_tag( 'pictures/flowers8_small.jpg', :class => "drop_shadow"), 'images/pictures/flowers8.jpg', {:rel => "lightbox-pics", :title => "Flowers on the balcony"}
+      = link_to image_tag( 'pictures/daybed_small.jpg', :class => "drop_shadow"), 'images/pictures/daybed.jpg', {:rel => "lightbox-pics", :title => "Outdoor daybed"}
+      = link_to image_tag( 'pictures/bathtub_small.jpg', :class => "drop_shadow"), 'images/pictures/bathtub.jpg', {:rel => "lightbox-pics", :title => "The outdoor bathtub"}
+    #right_box
+      %h1
+        Rates
+      .inline_menu
+        %ul
+          %li
+            =mail_to 'reservations@sunshinecoastescape.ca', 'Make a Reservation', :subject => "Casa Serena Reservations"
+          %li
+            =link_to 'Contact Us', '/contact'
+          %li
+            =link_to 'Currency Conversion', 'http://www.xe.com/ucc/convert/?Amount=150&From=CAD&To=USD'
+        %h2
+          Summer (April 1 to October 31)
+        %p.copy_text
+          $150 per night, no taxes<br>
+          Discount for seven-nights or longer: 15%<br>
+          Minimum booking: two nights<br>
+        %h2
+          Off-Season (November 1 to March 31)
+        %p.copy_text
+          $130 per night, no taxes<br>
+          Discount for seven-nights or longer: 15%<br>
+          Minimum booking: two nights<br>
+        %h2
+          Policies
+        %p.copy_text
+          No smoking in the suite or on the grounds<br>
+          Maximum occupancy two adults<br>
+          Check-in 4 p.m. / Check-out 11 a.m.<br>
+          2-night deposit required for booking of longer than 3 nights<br>
+          
+        %h2
+          Deposit
+        %p.copy_text
+          2-week notice: fully refunded<br>
+          Less notice: conditionally refunded
+        %h2
+          Payment
+        %p.copy_text
+          Cash, Canadian cheques, or Traveller's cheques only<br>
+  #bottom_of_main_frame
+    = render "partials/foot"

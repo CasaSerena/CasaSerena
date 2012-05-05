@@ -1,0 +1,18 @@
+#main_frame
+  = render "partials/menu"
+  #two_column_wrapper
+    #left_box
+      = link_to image_tag( 'pictures/balcony_small.jpg', :class => "drop_shadow"), 'images/pictures/balcony.jpg', {:rel => "lightbox-pics", :title => "The view of the inlet from Casa Serena"}
+      = link_to image_tag( 'pictures/bathtub_small.jpg', :class => "drop_shadow"), 'images/pictures/bathtub.jpg', {:rel => "lightbox-pics", :title => "The outdoor bathtub"}
+      = link_to image_tag( 'pictures/drawbridge_small.jpg', :class => "drop_shadow"), 'images/pictures/drawbridge.jpg', {:rel => "lightbox-pics", :title => "Beautiful and tranquil Casa Serena"}
+    #right_box
+      %h1
+        Escape to the Sunshine Coast
+      %p.copy_text
+        Welcome.  Casa Serena is a little slice of heaven waiting for you on the Sunshine Coast. It’s a lush, relaxing space where you forget the city, enjoy the peacefulness of the Sechelt Inlet and feel refreshed.
+      %p.copy_text
+        Guests stay in the well-appointed Tree House Suite in our West-coast inspired cedar home.  It is a charming retreat boasting 700 square feet with its own entrance and a large, private deck surrounded by greenery and spectacular vistas of the sea and mountains.
+      %p.copy_text
+        Enjoy the tranquility of the moment as you delight in your outdoor bathtub or curl up in the daybed, taking in the views, the calm, and the beauty.
+  #bottom_of_main_frame
+    = render "partials/foot"

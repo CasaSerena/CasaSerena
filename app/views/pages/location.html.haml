@@ -1,0 +1,42 @@
+#main_frame
+  = render "partials/menu"
+  #two_column_wrapper
+    #left_box.centred
+      = link_to image_tag( 'pictures/shore_small.jpg', :class => "drop_shadow"), 'images/pictures/shore.jpg', {:rel => "lightbox-pics", :title => "On the shore"}
+      %br
+      = link_to image_tag( 'pictures/kayaks_small.jpg', :class => "drop_shadow"), 'images/pictures/kayaks.jpg', {:rel => "lightbox-pics", :title => "Go kayaking"}
+      %br
+      = link_to image_tag( 'pictures/gibson_small.jpg', :class => "drop_shadow"), 'images/pictures/gibson.jpg', {:rel => "lightbox-pics", :title => "Port of Gibsons"}
+      %br
+      = link_to image_tag( 'pictures/grove_small.jpg', :class => "drop_shadow"), 'images/pictures/grove.jpg', {:rel => "lightbox-pics", :title => "Hidden Grove"}
+      %br
+      = link_to image_tag( 'pictures/sailing_small.jpg', :class => "drop_shadow"), 'images/pictures/sailing.jpg', {:rel => "lightbox-pics", :title => "Go sailing"}
+      %br
+      = link_to image_tag( 'pictures/seal_small.jpg', :class => "drop_shadow"), 'images/pictures/seal.jpg', {:rel => "lightbox-pics", :title => "Local wildlife"}
+      %br
+      = link_to image_tag( 'pictures/panorama_small.jpg', :class => "drop_shadow"), 'images/pictures/panorama.jpg', {:rel => "lightbox-pics", :title => "Thormanby Island"}
+      %br
+      = link_to image_tag( 'pictures/birds_small.jpg', :class => "drop_shadow"), 'images/pictures/birds.jpg', {:rel => "lightbox-pics", :title => "Oystercatchers"}
+    #right_box
+      %h1
+        Location
+      .inline_menu
+        %ul
+          %li
+            = link_to 'Get Directions', '/directions'
+          %li
+            = link_to 'Weather', 'http://www.weatheroffice.gc.ca/city/pages/bc-3_metric_e.html'
+      %p.copy_text
+        We are situated on the Lower Sunshine Coast in the town of Sechelt, a 40 minute drive north of the Langdale ferry terminal. The Sunshine Coast is a quick 40 minute sailing on the BC Ferry which departs from Horseshoe Bay in Vancouver. Even though there is no road access to the Coast, it is still part of the Vancouver/Lower Mainland. This area can only be accessed by BC Ferry, boat, or airplane.
+      %p.copy_text
+        The town Sechelt is Shishalh for "the land between two waters" it is a small community (population around 8000) which sits on a sandbar that separates the Sechelt Inlet from the Strait of Georgia. Sechelt is both a destination getaway due to its close proximity to Vancouver and a popular stop off for those doing the "Circle Tour." The Circle Tour is a trip encompassing 3 major areas: Vancouver, Vancouver Island and the Sunshine Coast. It incorporates travel through Vancouver, Victoria, Nanaimo, Courtney, Powell River, Pender Harbour, Sechelt and Gibsons. For those people who love road trips and who love to explore different areas, it's a great way to discover BC's West Coast. For more information on the West Coast Circle Tour, click here.
+      %p.copy_text
+        The Sunshine Coast is also a convenient side trip for a visit to Whistler.  The Horseshoe Bay terminal is located at the start of the Sea to Sky Highway, and is a terrific way to add a seaside element to your mountain adventure.
+      %p.copy_text
+        The Sunshine Coast is a great area to visit year round. The climate is very temperate with mild wet winters and warm dry summers. This area has the warmest growing climate in Canada, the result being that Spring often begins in February. The temperature on the Coast ranges from freezing in winter to 30°C (90°F) in the summer. Sechelt receives approximately 100 cm (40") of rain annually.
+      %p.copy_text
+        The scenery is an extraordinary composition of forested mountains, protected inlet and the open ocean. There are many beaches and parks available for you to explore, and enjoy the unique landscape. The rugged terrain is conducive to many outdoor pursuits: mountain biking, hiking, back road exploring, kayaking and fishing to name a few.
+      %p.copy_text
+        For those more interested in cultural pursuits, there are many events: the <a href="http://www.coastjazz.com/">Gibsons Landing Jazz Festival</a>, the <a href="http://www.penderharbourmusic.ca/">Pender Harbour Music Festivals</a>, the <a href="http://www.writersfestival.ca/">Festival of the Written Arts</a>, the <a href="http://www.gibsonsartschool.net/">Gibsons School of the Arts</a>, the <a href="http://www.coasterscarclub.ca/sleepy-hollow/">Festival of the Rolling Arts</a> (an antique car rally) and so much more.  Here is a <a href="http://www.bigpacific.com/whattodo/calendar.html">comprehensive list of events</a>.
+  #bottom_of_main_frame
+    = render "partials/foot"

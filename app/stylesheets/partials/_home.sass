@@ -1,0 +1,158 @@
+body
+  background-color: #ffc
+  background-attachment: scroll
+
+.centred
+  text-align: center
+
+.left_justified
+  text-align: left
+
+.right_justified
+  text-align: right
+
+.no_linebreak
+  white-space: nowrap
+
+.fixed_width
+  min-width: $blueprint_container_size
+
+.set_width
+  width: $blueprint_container_size
+
+#main_frame
+  -webkit-border-radius: 25px
+  -moz-border-radius: 25px
+  border-radius: 25px
+  -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.7)
+  -moz-box-shadow: 10px 10px 10px 0px #706270
+  box-shadow: 10px 10px 10px 0px #706270
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  background-color: white
+  border-style: solid
+  border-color: black
+  border-width: 2px
+  width: 950px
+  margin: 50px auto 20px
+  background: #fff
+
+#bottom_of_main_frame
+  width: 950px
+  border-top: thin solid #aaa
+
+.menu
+  ul
+    list-style-type: none
+    padding: 25px 0
+    text-align: center
+    margin-left: -1px
+    font-family: Optima, Verdana, sans-serif
+    line-height: 32px
+  ul li
+    display: inline
+    padding: 0 20px
+    font-size: 14pt
+    border-left: 1px solid #000
+    &:first-child
+      border-left: 0px
+    a
+      color: #990
+      text-decoration: none
+      &:visited
+        color: #990
+      &:hover
+        color: #036
+    #book_now
+      outline: 3px dotted #f00
+      outline-offset: 3px
+      color: red
+      text-align: left
+      &:hover
+        color: #036
+
+.inline_menu
+  ul
+    list-style-type: none
+    font-family: Optima, Verdana, sans-serif
+    line-height: 32px
+    margin: 0 auto
+  ul li
+    display: inline
+    padding: 0 20px
+    font-size: 14pt
+    border-left: 1px solid #000
+    &:first-child
+      border-left: 0
+      padding-left: 0
+    a
+      color: #990
+      text-decoration: none
+      &:visited
+        color: #990
+      &:hover
+        color: #036
+
+.offer_list
+  li
+    padding: 0 20px
+    font-size: 1.6em
+    line-height: 24pt
+
+.testimonial
+  font-style: italic
+
+#banner
+  padding-bottom: 30px
+
+#two_column_wrapper, #three_column_wrapper
+  width: 880px
+  margin: 0 auto
+  padding: 10px
+  overflow: hidden
+
+#left_box
+  float: left
+  width: 250px
+  padding-top: 65px
+
+#right_box
+  margin-left: 250px
+  width: 630px
+
+.double_indent
+  padding-left: 40px
+  width: 800px
+
+.drop_shadow
+  -moz-box-shadow: 3px 3px 4px #777 /* Firefox */
+  -webkit-box-shadow: 3px 3px 4px #777 /* Safari/Chrome */
+  box-shadow: 3px 3px 4px #777 /* Opera and other CSS3 supporting browsers */
+  margin-bottom: 30px
+
+h1
+  font-size: 3em
+  font-family: Optima, Candara, "Trebuchet MS", sans-serif
+  padding-bottom: 20px
+
+h2
+  font-size: 1.5em
+  font-family: Optima, Candara, "Trebuchet MS", sans-serif
+  padding: 30px 0 0 0
+
+.copy_text
+  font-size: 1.8em
+  font-family: Optima, Candara, "Trebuchet MS", sans-serif
+  padding-top: 20px
+
+.note_text
+  font-size: 1em
+  font-family: Optima, Candara, "Trebuchet MS", sans-serif
+  padding: 20px 0
+  font-style: italic
+
+#gallery
+  margin: 0 40px
+  img
+    margin: 20px 40px

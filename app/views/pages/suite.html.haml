@@ -1,0 +1,26 @@
+#main_frame
+  = render "partials/menu"
+  #two_column_wrapper
+    #left_box.centred
+      = link_to image_tag( 'pictures/bedroom_small.jpg', :class => "drop_shadow"), 'images/pictures/bedroom.jpg', {:rel => "lightbox-pics", :title => "Suite bedroom"}
+      %br
+      = link_to image_tag( 'pictures/chaise_small.jpg', :class => "drop_shadow"), 'images/pictures/chaise.jpg', {:rel => "lightbox-pics", :title => "Treehouse chaise lounge"}
+      %br
+      = link_to image_tag( 'pictures/daybed_small.jpg', :class => "drop_shadow"), 'images/pictures/daybed.jpg', {:rel => "lightbox-pics", :title => "Outdoor daybed"}
+      %br
+      = link_to image_tag( 'pictures/flowers7_small.jpg', :class => "drop_shadow"), 'images/pictures/flowers7.jpg', {:rel => "lightbox-pics", :title => "Pond on the balcony"}
+    #right_box
+      %h1
+        The Tree House Suite
+      %p.copy_text
+        The Tree House Suite is luxurious, intimate, and has all you need to appreciate your stay.  Located in a verdant setting, the view is framed by majestic cedar trees.  The windows and large private deck overlook a tapestry garden and give you a magnificent view of sea, mountains, and sky. 
+      %p.copy_text
+        Spacious and decorated tastefully, the suite features a comfortable king-sized bed with individual reading lights on each side.  Unwind in complete privacy on your open private deck, reading on the day bed as you while away the hours on the Coast or soaking up the view from your outdoor claw-foot bathtub.  It will surely soothe your senses.  A babbling pond with koi fish enhances the peaceful nature of your stay.
+      -#%p.copy_text
+        -#In the morning, eat breakfast at your leisure by selecting from the tasty items ready for you such as freshly ground coffee and cream, homemade muffins, preserves, fresh fruits, homemade granola, milk and juice.  Our fully-equipped kitchen also permits you to prepare meals as you wish.  
+      %p.copy_text
+        The ensuite full-sized bathroom has a shower and tub.  Other amenities include guest robes, TV, DVD, Wireless Internet Access, Games, and a CD player. 
+      %p.copy_text
+        We hope that your stay in the Tree House Suite at Casa Serena will make you want to return again and again.
+  #bottom_of_main_frame
+    = render "partials/foot"
