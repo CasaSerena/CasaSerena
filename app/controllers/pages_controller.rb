@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
 
   def index
-    @title = "Welcome to your Sunshine Coast Haven | Casa Serena"
+    @title = "Welcome to Your Sunshine Coast Haven | Casa Serena"
   end
 
   def suite
